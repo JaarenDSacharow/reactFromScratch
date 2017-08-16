@@ -1,0 +1,12 @@
+@import './bootstrap/customizations.scss';
+
+body {
+  min-height: 100%;
+  width: 100%;
+/*  background: url('./images/img_molly_icon.png');
+  background-position: center center;
+  background-repeat: no-repeat; */
+  p {
+    color: $brand-success;  // a variable from customizations.scss, which overrides the default bootstrap
+  }
+}
