@@ -9,4 +9,7 @@ body {
   p {
     color: $brand-success;  // a variable from customizations.scss, which overrides the default bootstrap
   }
+  .errormessage {
+    color:red;
+  }
 }

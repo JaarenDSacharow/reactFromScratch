@@ -78,7 +78,7 @@ class App extends React.Component {
           </header>
           <div className="content">
             {
-              this.state.message !=="" &&<p className="message text-danger">{this.state.message}</p>
+              this.state.message !=="" &&<p className="errormessage">{this.state.message}</p>
             }
 
               <table className="table table-striped">
